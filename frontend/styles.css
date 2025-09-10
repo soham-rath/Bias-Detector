@@ -1,0 +1,48 @@
+#bias-widget {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  z-index: 99999;
+}
+
+.bias-highlight {
+  background-color: yellow;
+  cursor: help;
+}
+
+.bias-highlight.emotional {
+  background-color: #ffcccc;
+}
+.bias-highlight.framing {
+  background-color: #ccffcc;
+}
+.bias-highlight.fallacy {
+  background-color: #ccccff;
+}
+.bias-highlight.partisan {
+  background-color: #ffccff;
+}
+
+#bias-sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  background: white;
+  color: black;
+  border-left: 1px solid #ccc;
+  overflow-y: auto;
+  padding: 10px;
+  z-index: 99999;
+}
+#bias-sidebar button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
